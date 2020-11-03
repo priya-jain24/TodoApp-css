@@ -1,0 +1,100 @@
+.page2-container{
+    margin-top:60px;
+    margin-left:280px;
+    margin-right:280px;
+    font-size:28px;
+    text-align:center;
+}
+.heading,.hr1,.hr2{
+    display:inline-block;
+}
+.hr1,.hr2{
+    width:25%;
+}
+.heading{
+    padding-left:12px;
+    padding-right:12px;
+}
+.fa{
+    color:#eb5c26;
+}
+.fa, .back-button{
+    display: inline-block;
+}
+.back-button{
+    color:gray;
+}
+hr{
+    height:2px;
+    border-width:0;
+    color:#c2c0c0;
+    background-color:#c2c0c0;
+}
+.main-card{
+    border:2px solid #eb5c26;
+    border-radius:15px;
+    width:320px;
+    height:320px;
+    font-size:24px;
+    margin:auto;
+    position: relative;
+    box-shadow:2px 4px 4px 2px gray;
+
+}
+.card-heading{
+    text-align:center;
+    color:#eb5c26;
+}
+.card-body{
+    margin-left:40px;
+
+}
+.card-body hr{
+    height:2px;
+    border-width:0;
+    color:#c2c0c0;
+    background-color:#c2c0c0;
+}
+.card-body h3{
+    text-decoration: line-through;
+    text-decoration-color: #f60611;
+    color:#f60611;
+}
+.task-check{
+    font-size:18px;
+    color:#444343;
+    margin-left:12px;
+    font-weight: 600;
+}
+.fa-plus-circle{
+    position: absolute;
+    bottom:12px;
+    right:10px;
+    font-size:32px;
+}
+.button-card{
+    color:#f60611;
+    font-size:20px;
+}
+.page-footer{
+    text-align: center;
+    margin-top:6px;
+}
+@media screen and (min-width:320px) and (max-width:480px){
+    .page2-container{
+        margin:20px;
+    }
+    .hr1 ,.hr2{display:none;}
+    .heading{
+        padding:0px;
+        font-size:34px;
+    }
+    .back-button{display:none;}
+    .back-container{position:absolute;left:18px;top:44px;}
+    .main-card{
+        width:240px;
+        height:360px;
+        margin-top:18px;
+    }
+    .card-body h3{font-size:24px;}
+}
